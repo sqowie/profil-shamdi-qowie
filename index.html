@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. Shamdi Qowie | Creative Technologist - Soft Stone & Fresh Pine</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loading Animation -->
+<div id="loading">
+    <div class="loader-container">
+        <div class="loader-leaf"></div>
+        <div class="loader-text">quiet & focus</div>
+    </div>
+</div>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top">
+    <i class="fas fa-leaf"></i>
+</button>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+    <div class="container">
+        <div class="logo">
+            <a href="#">Shamdi<span>Qowie</span></a>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <button id="darkModeToggle" class="dark-mode-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="profile-img" data-aos="zoom-in" data-aos-duration="1000">
+                <img src="foto 1.jpg" alt="M. Shamdi Qowie">
+            </div>
+            <h1 data-aos="fade-up" data-aos-delay="200">M. Shamdi Qowie</h1>
+            <p class="tagline" data-aos="fade-up" data-aos-delay="400">Content Creator & Web Developer</p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Hire Me
+                </a>
+                <a href="#Project" class="btn btn-outline">
+                    <i class="fas fa-code"></i> My Work
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="hero-bg-leaf"></div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right">
+                <p>Saya <span class="highlight">M. Shamdi Qowie</span>, seorang <strong>Creative Technologist</strong> yang berkecimpung di dunia <strong>Web Development</strong> dan <strong>Content Creation</strong>. Berbasis di Indonesia, saya membantu brand maupun individu membangun identitas digital yang kuat, segar, dan autentik.</p>
+                <p>Dengan pendekatan <strong>"less but better"</strong>, saya percaya bahwa teknologi dan kreativitas bisa berjalan beriringan. Saya telah mengerjakan 20+ project website dan konten yang engaging untuk berbagai platform. Mari kita ciptakan sesuatu yang berarti!</p>
+                <div class="signature-line">
+                    <i class="fas fa-seedling"></i> growing everyday, designing with heart <i class="fas fa-seedling"></i>
+                </div>
+            </div>
+            <div class="about-info" data-aos="fade-left">
+                <div class="info-grid">
+                    <div class="info-grid-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>UMUR</h4>
+                        <p>21 Tahun</p>
+                    </div>
+                    <div class="info-grid-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>LOKASI</h4>
+                        <p>Indonesia</p>
+                    </div>
+                    <div class="info-grid-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>EXPERIENCE</h4>
+                        <p>3+ Years</p>
+                    </div>
+                    <div class="info-grid-item">
+                        <i class="fas fa-trophy"></i>
+                        <h4>PROJECT</h4>
+                        <p>25+ Selesai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Core <span>Skills</span></h2>
+        <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="Project" class="Project">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Featured <span>Project</span></h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-card" data-aos="flip-left">
+                <div class="card-img">
+                    <img src="https://i.pinimg.com/736x/ed/66/d6/ed66d6e65b5da33dc1b0f201196edf08.jpg" alt="Kartun Nostalgia">
+                    <div class="card-overlay">
+                        <a href="https://sqowie.github.io/kartun/" class="btn-card" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Rekomendasi kartun masa kecil</h3>
+                    <p>Koleksi rekomendasi kartun masa kecil: Tom & Jerry, Naruto, Pokemon, Upin Ipin dll. Full responsive dengan vibe retro-modern.</p>
+                    <div class="card-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JS</span>
+                        <span>Nostalgia</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card" data-aos="flip-left" data-aos-delay="200">
+                <div class="portfolio-card" data-aos="flip-left">
+                <div class="card-img">
+                    <img src="https://i.pinimg.com/736x/4d/73/bf/4d73bf0820d5acf715a654a1306b2f32.jpg" alt="Kartun Nostalgia">
+                    <div class="card-overlay">
+                        <a href="https://sqowie.github.io/lingkungan/" class="btn-card" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>
+Sistem Informasi Lingkungan Nasional</h3>
+                    <div class="card-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JS</span>
+                        <span>Nostalgia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="experience">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Journey <span>So Far</span></h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2023</div>
+                    <h3>Mulai Belajar Web Dev</h3>
+                    <p>Memulai karier dari nol: HTML, CSS, JavaScript, dan pertama kali deploy website.</p>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2024</div>
+                    <h3>Content Creator Growth</h3>
+                    <p>Mengelola konten edukasi teknologi & lifestyle, mencapai 150K+ total views di TikTok & YouTube.</p>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2025 - Sekarang</div>
+                    <h3>Freelance Web Developer</h3>
+                    <p>Mengerjakan project website untuk UMKM & personal brand, fokus pada performa dan estetika.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Let's <span>Connect</span></h2>
+        <div class="contact-wrapper">
+            <div class="contact-form" data-aos="fade-right">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Tulis pesan untuk kolaborasi..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">
+                        <i class="fas fa-paper-plane"></i> Kirim Pesan
+                    </button>
+                </form>
+            </div>
+            <div class="contact-info" data-aos="fade-left">
+                <div class="contact-card-modern">
+                    <h3>Social Media</h3>
+                    <p>Follow & mention saya untuk diskusi lebih lanjut</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="contact-email">
+                        <i class="fas fa-envelope"></i> shamdi.qowie@creative.id
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#">Shamdi<span>Qowie</span></a>
+            </div>
+            <p>&copy; 2025 M. Shamdi Qowie. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
